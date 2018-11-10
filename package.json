@@ -1,0 +1,20 @@
+{
+  "name": "kts-issue-261",
+  "version": "1.0.0",
+  "description": "Repro for #261",
+  "main": "index.ts",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Houfu Ang <houfu@outlook.sg> (https://github.com/houfu)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.11",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-typescript": "^3.0.13",
+    "typescript": "^3.1.6"
+  }
+}

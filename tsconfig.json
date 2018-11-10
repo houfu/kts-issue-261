@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@test/*": ["test_dir/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
